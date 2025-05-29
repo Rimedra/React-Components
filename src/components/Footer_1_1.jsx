@@ -10,7 +10,7 @@ export default function Footer_1_1() {
   return (
     <>
         <div className="bg-gray-100 text-gray-700 py-4 text-center items-start grid grid-cols-12 gap-4 p-4">
-            <div className="col-span-12 lg:col-span-3 flex flex-col justify-center">
+            <div className="col-span-12 sm:col-span-3 flex flex-col justify-center">
                 <img src="https://placehold.co/400x100" alt="" />
                <div className='px-1 flex flex-col justify-center gap-6 font-semibold my-4'>
                 <p className='text-left text-sm md:text-base'>Herkes dijital ürünlere güvenle ve kolayca erişebilsin diye varız. iyilisans.com şimdi 3 yaşında!</p>
@@ -29,62 +29,73 @@ export default function Footer_1_1() {
                 </div>
                </div> 
             </div>
-            <div className="col-span-12 lg:col-span-3 flex flex-col justify-center">
+            <div className="col-span-12 sm:col-span-3 flex flex-col justify-center">
                <div className='px-1 flex flex-col justify-center gap-4 font-semibold my-4'>
                     <a href="" className='text-black font-bold hover:text-gray-500'>
                         <p className='text-left text-md md:text-lg'>Blank.com</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Hakkımızda</p>
+                        <p className='text-left text-sm md:text-base'>Lorem, ipsum dolor.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>İletişim</p>
+                        <p className='text-left text-sm md:text-base'>Lorem ipsum dolor sit.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Sıkça Sorulan Sorular</p>
+                        <p className='text-left text-sm md:text-base'>Lorem, ipsum.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Gizlilik ve Güvenlik</p>
+                        <p className='text-left text-sm md:text-base'>Lorem, ipsum dolor.</p>
                     </a>
                </div> 
             </div>
-            <div className="col-span-12 lg:col-span-3 flex flex-col justify-center">
+            <div className="col-span-12 sm:col-span-3 flex flex-col justify-center">
                <div className='px-1 flex flex-col justify-center gap-4 font-semibold my-4'>
                     <a href="" className='text-black font-bold hover:text-gray-500'>
                         <p className='text-left text-md md:text-lg'>Blank.com</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Hakkımızda</p>
+                        <p className='text-left text-sm md:text-base'>Lorem ipsum dolor sit.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>İletişim</p>
+                        <p className='text-left text-sm md:text-base'>Lorem ipsum dolor sit.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Sıkça Sorulan Sorular</p>
+                        <p className='text-left text-sm md:text-base'>Lorem ipsum dolor sit.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Gizlilik ve Güvenlik</p>
+                        <p className='text-left text-sm md:text-base'>Lorem, ipsum dolor.</p>
                     </a>
                </div> 
             </div>
-            <div className="col-span-12 lg:col-span-3 flex flex-col justify-center">
+            <div className="col-span-12 sm:col-span-3 flex flex-col justify-center">
                <div className='px-1 flex flex-col justify-center gap-4 font-semibold my-4'>
                     <a href="" className='text-black font-bold hover:text-gray-500'>
                         <p className='text-left text-md md:text-lg'>Blank.com</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Hakkımızda</p>
+                        <p className='text-left text-sm md:text-base'>Lorem ipsum dolor sit amet.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>İletişim</p>
+                        <p className='text-left text-sm md:text-base'>Lorem, ipsum.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Sıkça Sorulan Sorular</p>
+                        <p className='text-left text-sm md:text-base'>Lorem, ipsum dolor.</p>
                     </a>
                     <a href="font-semibold hover:text-gray-300">
-                        <p className='text-left text-sm md:text-base'>Gizlilik ve Güvenlik</p>
+                        <p className='text-left text-sm md:text-base'>lorem</p>
                     </a>
                </div> 
+            </div>
+            <div className='grid grid-cols-12 gap-4 col-span-12'>
+                <div className='col-span-12 md:col-span-4 flex flex-col my-auto justify-center'>
+                <p>Copyright © 2025 Lorem Bütün Hakları saklıdır.</p>
+            </div>
+            <div className='col-span-12 md:col-span-4 flex flex-col justify-center'>
+                <img src="https://placehold.co/181x16" alt="" />
+            </div>
+            <div className='col-span-12 md:col-span-4 flex flex-col justify-center'>
+                <img src="https://placehold.co/101x8" alt="" />
+            </div>
             </div>
         </div>
     </>

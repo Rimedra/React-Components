@@ -4,11 +4,13 @@ import Header from "./components/Header"
 import Header_1_1 from "./components/Header_1_1"
 import Header_1_2 from "./components/Header_1_2"
 import Header_1_3 from "./components/Header_1_3"
+import Sidebar from "./components/Sidebar_1_0"
+import Header_1_4 from "./components/Header_1_4"
 function App() {
   return (
     <>
     {/* Place What you want to see in the browser from components or page or both! */}
-     <Header_1_3 /> 
+     <Header_1_4 /> 
      <div className="h-64">R</div>
      <Footer_1_1 />
     </>
