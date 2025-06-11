@@ -44,7 +44,10 @@ const toggleComplete = (id) => {
                 </h1>
                 <div className='bg-gray-200 rounded-lg shadow-lg p-3'>
                     <form onSubmit={addTodo}>
-                        <input type="text" placeholder='Enter Your Task Here...' value={inputValue} onChange={() => setInputValue()} />
+                        <input type="text" placeholder='Enter Your Task Here...' 
+                        className='w-full px-4 py-2 border border-gray-300 rounded-md mb-4'
+                        value={inputValue} 
+                        onChange={(e) => setInputValue(e.target.value)} />
                         <button type='submit' className='px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-300 text-white shadow-md w-full mt-2'>
                             Add Task
                         </button>
@@ -56,20 +59,25 @@ const toggleComplete = (id) => {
                             <span className={`text-gray-800 ${todo.completed ? 'line-through' : ''}`}>
                                 {todo.text}
                             </span>
+                            <div className='flex space-x-2'>
+                                <button
+                                    className='text-green-500 hover:text-green-700'
+                                    onClick={() => toggleComplete(todo.id)}
+                                >
+                                    {todo.completed ? 'Undo' : 'Complete'}
+                                </button>
+                                <button
+                                    className='text-red-500 hover:text-red-700'
+                                    onClick={() => deleteTodo(todo.id)}
+                                >
+                                    Delete
+                                </button>
+                            </div>
                         </li>
-
+                        
                     ))}
 
-                    <button className='px-4 py-2 bg-green-500 hover:bg-green-300 text-white rounded-md shadow-md w-full mt-2'
-                    onClick={() => toggleComplete(todos.id)}>
-                        Toggle Complete
-
-                    </button>
-                    <button className='px-4 py-2 bg-red-500 hover:bg-red-300 text-white rounded-md shadow-md w-full mt-2' 
-                    onClick={() => deleteTodo(todos.id)}>
-                        Delete Task
-
-                    </button>
+                   
                 </ul>
             </div>
 
